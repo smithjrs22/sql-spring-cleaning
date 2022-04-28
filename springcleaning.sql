@@ -1,13 +1,13 @@
--- 1) Create database called shirts
+1) Create database called shirts
 create database shirts_db
 
--- 2) Make the table
+2) Make the table
 create table shirts (
 shirt_id INT not null primary key,
-article varchar (50) not null, 
-color varchar (50) not null,
-shirt_size varchar(50) not null,
-last_worn varchar(50) not null
+article varchar (10) not null, 
+color varchar (10) not null,
+shirt_size varchar(1) not null,
+last_worn varchar(10) not null
 );
 
 3) SELECT all shirts but only print out article and color
